@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "poppins";
+  background-color: #f2f0f0;
+}
+*{
+  box-sizing: border-box;
+}
+h1{
+  color: red;
+}
+form{
+  display: block;
+  background-color: #181111;
+  box-shadow: 1px 1px 3px 2px #3f3a3a;
+  margin: 25px 50px 75px 100px;
+  max-width: 600px;
+  max-height: 700px;
+  padding: 20px 40px 20px 40px;
+  width: 50%;
+  
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 50px 75px 100px;
+
+}
+/* .additional-container {
+  max-width: 600px;
+  max-height: 700px;
+  padding: 20px 40px 20px 40px;
+  background-color: #f34c4c;
+  color: #fff;
+} */
+/* form {
+  display: block;
+  background-color: #181111;
+  box-shadow: 1px 1px 3px 2px #3f3a3a;
+  max-width: 600px;
+  max-height: 700px;
+  padding: 20px 40px 20px 40px;
+} */
+
+.column {
+  float: left;
+  width: 50%;
+  display: block;
+  background-color: #181111;
+  box-shadow: 1px 1px 3px 2px #3f3a3a;
+  max-width: 600px;
+  max-height: 700px;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+form input, textarea{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px auto;
+  padding: 8px;
+  font-family: "poppins";
+  background-color: #efe8e8;
+  border: 1px solid #ddd;
+  color: rgb(8, 8, 8);
+  font-size: 16px;
+}
+
+form button{
+  height: 30px;
+  width: 80px;
+  align-items: center;
+  border: none;
+  background-color: rgb(248, 24, 24);
+  cursor: pointer;
+}
+/* Logo.css */
+/* .logo-container {
+  background-color: #1c94cc;
+  padding: 10px;
+  text-align: center;
+} */
+
+.logo {
+  max-width: 100px;
+  
+}
+
+.logo-container {
+  
+  padding: 10px;
+  
+  margin-bottom: 20px;
+}
+
+
+
